@@ -45,6 +45,18 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
    Aqui você pode testar todos os endpoints da API de forma interativa.
 
+
+## Autenticando no Google Cloud:
+   ```sh
+   gcloud auth login
+   gcloud config set project <ID_DO_SEU_PROJETO>
+   gcloud run deploy --port=8000
+   ```
+
+   Substitua `<ID_DO_SEU_PROJETO>` pelo ID do seu projeto no Google Cloud.
+
+   Se você não tiver o Google Cloud SDK instalado, siga as instruções [aqui](https://cloud.google.com/sdk/docs/install).
+
 ---
 
 ## Estrutura do Projeto
@@ -62,3 +74,8 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
 
 ---
+
+## No google cloud:
+Caso queira acessar a aplicação no Google Cloud, você pode entrar no seguinte link:
+
+https://api-23307032909.southamerica-east1.run.app
